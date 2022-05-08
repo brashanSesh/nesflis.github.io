@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css all browser -->
+    <link rel="stylesheet" href="css/cssallbrowser.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilo_login.css">
+
+    <!-- icono de la pestaña -->
+    <link rel="shortcut icon" href="img/icono_pestaña.png">
+
+    <script src="js/loginjs.js"></script>
+
+    <!-- titulo de la pestaña -->
+    <title>Inicia sesion</title>
+</head>
+
+<body class="body_login">
+    
+    <!-- secicon para el form de logearse -->
+    <section class="seccion_login">
+
+        <!-- titulo de la seccion -->
+        <h1 class="titulo_seccion_login">
+            INICIA SESION PARA QUE PUEDAS ACCEDER A VER EL CONTENIDO
+        </h1>
+
+        <!-- div que va a contener el form para logearse -->
+        <div class="div_form_login">
+
+            <!-- formulario para logearse -->
+            <form action="">
+
+                <!-- label e input para correo -->
+                <label for="correo" class="lbl_info">Ingresa tu correo electronico: </label>
+                <input type="email" id="correo" name="in_correo" class="in_info" placeholder="Aqui"><br><br>
+                
+                <!-- label e input para contraseña -->
+                <label for="contra" class="lbl_info">Ingresa tu contraseña: </label>
+                <input type="password" id="contra" name="in_contra" class="in_info" placeholder="Aqui"><br><br><br><br>
+
+                <!-- boton para mandar los datos -->
+                <button class="boton_login" type="submit" onclick="login()">INICIA SESION</button>
+
+            </form>
+
+        </div>
+
+        <!-- sin cuenta -->
+        <p class="parrafo">
+            ¿Aun no tienes una cuenta?, crea una pulsando <a href="crear_cuenta.html">AQUI</a> 
+        </p>
+
+    </section>
+
+</body>
+</html>

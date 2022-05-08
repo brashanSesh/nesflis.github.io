@@ -1,0 +1,194 @@
+/* crear cuenta */
+/* body crear cuenta */
+.body_crear_cuenta{
+    background-color: black;
+}
+
+/* seccion para el form de crear cuenta */
+.seccion_crear_cuenta{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 50px whitesmoke;
+    border-radius: 20px;
+
+    background-color: red;
+    color: snow;
+
+    overflow: hidden;
+}
+
+/* titulo de la seccion de crear cuenta */
+.seccion_crear_cuenta .titulo_seccion_crear_cuenta{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* parrafo que explica los planes de neslfis */
+.seccion_crear_cuenta .parrafo{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* div del plan 1 */
+.seccion_crear_cuenta .div_plan_1{    
+    width: 30%;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #c9a710;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: #10c95d;
+    color: black;
+
+    float: left;
+}
+
+/* titulo del div */
+.div_plan_1 .titulo_plan{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* explicacion del plan 1 */
+.div_plan_1 .explicacion{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* div del plan 2 */
+.seccion_crear_cuenta .div_plan_2{    
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #50d0ff;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: #ff7f50;
+    color: black;
+
+    float: left;
+}
+
+/* titulo del div */
+.div_plan_2 .titulo_plan{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* explicacion del plan 2 */
+.div_plan_2 .explicacion{
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+/* div del plan 3 */
+.seccion_crear_cuenta .div_plan_3{    
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px #65cc32;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: #9932cc;
+    color: black;
+
+    float: left;
+}
+
+/* titulo del div */
+.div_plan_3 .titulo_plan{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* explicacion del plan 3 */
+.div_plan_3 .explicacion{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* div de la tabla */
+.seccion_crear_cuenta .div_tabla_comparativa_planes{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    float: none;
+}
+
+/* estilo de la tabla */
+.div_tabla_comparativa_planes .tabla, .div_tabla_comparativa_planes .fila, .div_tabla_comparativa_planes .columa{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    font-size: 30px;
+}
+
+/* div del form para crear la cuenta */
+.seccion_crear_cuenta .div_form_crear_cuenta{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+
+    background-color: rgba(250, 250, 250, 0.60);
+}
+
+/* parrafo del div crear cuenta */
+.div_form_crear_cuenta > .parrafo{
+    color: black;
+}
+
+/* label de la info */
+.div_form_crear_cuenta .lbl_info{
+    color: black;
+
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* input de la info */
+.div_form_crear_cuenta .in_info{
+    height: 40px;
+
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* focus para el input */
+.div_form_crear_cuenta .in_info:focus{
+   background-color: #50d0ff;
+   color: blueviolet;
+}
+
+/* boton para registrar la cuenta */
+.div_form_crear_cuenta .boton_crear_cuenta{
+    display: block;
+
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* hover para el boton */
+.div_form_crear_cuenta .boton_crear_cuenta:hover{
+   background-color: blue;
+   color: white;
+}

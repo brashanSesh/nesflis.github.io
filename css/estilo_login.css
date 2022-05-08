@@ -1,0 +1,96 @@
+/* login */
+/* body login */
+.body_login{
+    background-color: black;
+}
+
+/* seccion del login */
+.seccion_login{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 20px;
+
+    background-color: rgba(255, 0, 0, 0.8);
+    color: whitesmoke;
+
+}
+
+/* titulo de la seccion del login */
+.seccion_login .titulo_seccion_login{
+    margin-bottom: 50px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/* div que va a tener el form para login */
+.seccion_login .div_form_login{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+/* label del formulario de login */
+.div_form_login .lbl_info{
+    color: snow;
+
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/* inputs del formulario de login */
+.div_form_login .in_info{
+    height: 50px;
+    width: 440px;
+    border: 2px dashed;
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* fucus para los inputs cuando los esten llenando */
+.div_form_login .in_info:focus{
+    background-color: black;
+    color: greenyellow;
+}
+
+/* boton para iniciar sesion */
+.div_form_login .boton_login{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 2px 4px black;
+
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+/* hover para cuando vallan a pulsar el boton */
+.div_form_login .boton_login:hover{
+    color: snow;
+    background-color: red;
+    box-shadow: 2px 4px white;
+}
+
+/* no tiene cuenta */
+.seccion_login .parrafo{
+    font-family: serif;
+    font-size: 25px;
+}
+
+.seccion_login .parrafo > a{
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+/* hover para el link del parrafo */
+.seccion_login .parrafo > a:hover{
+    color: black;
+    background-color: beige;
+}

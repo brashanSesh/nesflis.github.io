@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css all browser -->
+    <link rel="stylesheet" href="css/cssallbrowser.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilo_crear_cuenta.css">
+
+    <!-- icono de la pestaña -->
+    <link rel="shortcut icon" href="img/icono_pestaña.png">
+
+    <!-- titulo de la pestaña -->
+    <title>Crea tu cuenta</title>
+</head>
+
+<body class="body_crear_cuenta">
+
+    <!-- seccion para el formulario para que pueda crear una cuenta -->
+    <section class="seccion_crear_cuenta">
+        
+        <!-- parrafo para explicar en que consiste -->
+        <h1 class="titulo_seccion_crear_cuenta">
+            Crea una cuenta para que pueda disfrutar contenido exclusivo de Nesflis elije un plan que se acople a ti
+        </h1><br><br>
+
+        <!-- parrafo que explica los planes -->
+        <p class="parrafo">
+            En Neslfis contamos con 3 tipos de planes para que puedas disfutar nustro contenido exclusivo
+        </p>
+
+        
+        <!-- div del plan 1 -->
+        <div class="div_plan_1">
+
+            <!-- nombre del plan -->
+            <h1 class="titulo_plan">Plan Normal</h1>
+
+            <!-- explicacion que tiene el plan 1 -->
+            <p class="explicacion">
+                El plan Normal cuenta con una calidad de video buena, una resolucion de 480p, y solo 1 persona puede ver el contenido al mismo
+                tiempo. <br>
+                Todo esto por 150 pesos al mes
+            </p>
+
+        </div>
+
+        <!-- div del plan 2 -->
+        <div class="div_plan_2">
+
+            <!-- nombre del plan -->
+            <h1 class="titulo_plan">Plan Premium</h1>
+
+            <!-- explicacion que tiene el plan 1 -->
+            <p class="explicacion">
+                El plan Premium cuenta con una calidad de video mejor que el plan Estandar, una resolucion de 1080p, y solo 2 persona puede ver
+                el contenido al mismo tiempo. <br>
+                Todo esto por 230 pesos al mes
+            </p>
+
+        </div>
+
+        <!-- div del plan 3 -->
+        <div class="div_plan_3">
+
+            <!-- nombre del plan -->
+            <h1 class="titulo_plan">Plan Golden</h1>
+
+            <!-- explicacion que tiene el plan 1 -->
+            <p class="explicacion">
+                El plan Golden cuenta con una calidad de video optima, una resolucion de 4k (2160p) + HDR, y solo 4 persona puede ver el
+                contenido al mismo tiempo. <br>
+                Todo esto por 320 pesos al mes
+            </p>
+        </div>
+        
+
+        <!-- div de tabla conparativa de los planes -->
+        <div class="div_tabla_comparativa_planes">
+
+            <table class="tabla">
+
+                <!-- titulo de las columas -->
+                <tr class="fila">
+                    <th class="columa">Sevicio</th>
+
+                    <th class="columa">Plan Normal</th>
+
+                    <th class="columa">Plan Premium</th>
+
+                    <th class="columa">Plan Golden</th>
+                </tr>
+
+                <tr class="fila">
+                    <td class="columa">Calidad de video</td>
+
+                    <td class="columa">Buena</td>
+
+                    <td class="columa">Mejor</td>
+
+                    <td class="columa">Optima</td>
+                </tr>
+
+                <tr class="fila">
+                    <td class="columa">Resolucion</td>
+
+                    <td class="columa">480p</td>
+
+                    <td class="columa">1080p</td>
+
+                    <td class="columa">4k</td>
+                </tr>
+
+                <tr class="fila">
+                    <td class="columa">Cuentas personas lo pueden usar</td>
+
+                    <td class="columa">1</td>
+
+                    <td class="columa">2</td>
+
+                    <td class="columa">4</td>
+                </tr>
+
+                <tr class="fila">
+                    <td class="columa">Precio</td>
+
+                    <td class="columa">150 pesos al mes</td>
+
+                    <td class="columa">230 pesos al mes</td>
+
+                    <td class="columa">320 pesos al mes</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!-- div para el formulario para crear su cuenta -->
+        <div class="div_form_crear_cuenta">
+
+            <!-- parrafo para explicarlo -->
+            <p class="parrafo">
+                Crea tu cuenta con los siguientes datos
+            </p>
+
+            <!-- formulario para crear la cuenta -->
+            <form action="">
+
+                <!-- label e input para -->
+                <label for="correo" class="lbl_info">Ingresa tu correo electronico: </label>
+                <input type="email" class="in_info" id="correo" name="reg_correo" placeholder="Correo"><br><br>
+
+                <!-- label e input para -->
+                <label for="contra" class="lbl_info">Ingresa una contraseña: </label>
+                <input type="password" class="in_info" id="contra" name="reg_contra" placeholder="Contraseña"><br><br>
+
+                <!-- label e input para -->
+                <label for="nombre" class="lbl_info">Ingresa tu nombre(s): </label>
+                <input type="text" class="in_info" id="nombre" name="reg_nombre" placeholder="Nombre(s)"><br><br>
+
+                <!-- label e input para -->
+                <label for="apellido" class="lbl_info">Ingresa tus apellidos: </label>
+                <input type="text" class="in_info" id="apellido" name="reg_apellido" placeholder="Apellidos"><br><br>
+
+                <!-- label e input para -->
+                <label for="num_tarjeta" class="lbl_info">Ingresa tu numero de tarjeta: </label>
+                <input type="text" class="in_info" id="num_tarjeta" name="reg_num_tarjeta" placeholder="Numero de tarjeta"><br><br>
+
+                <!-- label e input para -->
+                <label for="fecha_ven" class="lbl_info">Fecha de vencimiento: </label>
+                <input type="month" class="in_info" id="fecha_ven" name="reg_fecha_ven" placeholder="Fecha de vencimiento"><br><br>
+
+                <!-- label e input para -->
+                <label for="codi_seg" class="lbl_info">Codigo de seguridad: </label>
+                <input type="text" class="in_info" id="codi_seg" name="reg_codi_seg" placeholder="Codigo seguridad"><br><br>
+
+                <!-- boton para registrarse -->
+                <button class="boton_crear_cuenta">CREA TU CUENTA</button>
+            </form>
+
+        </div>
+        
+    </section>
+   
+</body>
+</html>

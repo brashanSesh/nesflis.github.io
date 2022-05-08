@@ -1,0 +1,48 @@
+/* series html */
+/* body series */
+.body_series{
+    background-color: black;
+}
+
+/* seccion de las series */
+.seccion_series{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #197d61;
+
+    background-color: rgba(125,25,53, 0.90);
+
+    float: left;
+}
+
+/* div de las series */
+.seccion_series .div_del_contenido{
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 4%;
+    border-radius: 10px;
+
+    background-color: #556523;
+
+    float: left;
+}
+
+/* imagen del div del contenido */
+.div_del_contenido .imagen{
+    display: block;
+
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* hover para cuando pasen el mause */
+.div_del_contenido:hover{
+    background-color: #76834e;
+}
